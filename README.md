@@ -25,6 +25,6 @@ export MAVEN_HOME=$M3_HOME
 https://github.com/shinyay/intellij-with-maven-tomcat-plugin  
 
 ## take care of the following  
-set <scope>provided</scope> of javax.servlet pom.xml  
+set ```xml <scope>provided</scope>``` of javax.servlet pom.xml  
 **java.lang.LinkageError: loader constraint violation: loader (instance of org/apache/jasper/servlet/JasperLoader) previously initiated loading for a different type with name "javax/servlet/http/HttpServletRequest"**  
 http://stackoverflow.com/questions/11145710/tomcat7-maven-plugin-tomcat7run-java-lang-linkageerror-previously-initiated-loa  
